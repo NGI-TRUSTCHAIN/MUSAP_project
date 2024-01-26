@@ -9,14 +9,14 @@ The primary objective of the MUSAP project has been three fold:
 
 ## MUSAP Repositories 
 Following software code is developed so far:
-1.	[MUSAP API Specification]: Informative repository documenting MUSAP specifications
+1.	[MUSAP API Specification]: Informative repository documenting MUSAP API specifications
 2.	[MUSAP Android Library](https://github.com/methics/musap-android): Repository about MUSAP Android library 
 3.	[MUSAP iOS Library](https://github.com/methics/musap-ios): Repository about MUSAP iOS library
 4.	[MUSAP Link Library (java) ](https://github.com/methics/musap-link): Repository about component of MUSAP deployed on backend (server)
 5.	[Android Reference app for MUSAP ](https://github.com/methics/musap-demo-android): Reference Demo app for Android using MUSAP Android Library 
 6.	[iOS Reference app for MUSAP ](https://github.com/methics/MUSAP-Demo-App-iOS):  Reference Demo app for iOS using MUSAP iOS Library
 7.	[Divvy app for Client-DIDs project (Danubetech)]:Divvy app for Danubetech demo using MUSAP Android Library
-8.	[VSign Android App API]: Sign App for vsign.mn demo using MUSAP Android Library 
+8.	[VSign Android App API]: Sign App for vsign.mn Pilot using MUSAP Android Library to call Unitel mPKI SIM and GSign App 
 
 Image below provides high level overview of MUSAP architecture.
 ![MUSAP project architecture](Picture1_MUSAP_D3_Architecture.png)
@@ -54,12 +54,16 @@ MUSAP has 10 defined functionalities (as mentioned in D1 and D2). These function
 
 ## MUSAP Use Cases
 Overall MUSAP project will provide three distinct APIs: 
-1.	MUSAP API (Native Android or iOS)
-2.	MUSAP Link API (REST): API for Relying Parties to request signature through MUSAP
-3.	MUSAP Coupling API (JSON): To link MUSAP Library and MUSAP Link
+1. Enable Type 1 (High) and Type 2 (Substantial) configurations of EUDIW in one device
+2.	Sign any data format (X.509, VC, DID, etc.)
+3.	Provide multiple keystores/sscds to end-user to sign/auth
+4.	Handling Key Management methods and operations
 
-Image below illustrates MUSAP scope, which highlights all above-mentioned APIs. 
+MUSAP fact sheet can be found here: [MUSAP fact sheet](https://www.methics.fi/wp-content/uploads/2023/11/MUSAP_Product_Fact_Sheet.pdf)
+
+Image below illustrates MUSAP uaw case for EUDIW 
 ![MUSAP for EUDIW](Picture4_MUSAP_for_EUDIW.png)
+
 
 ## About MUSAP and Methics
 MUSAP Project has received funding from the NGI TrustChain project. Project is funded under the NGI initiative by the European Union (GA No 101093274). MUSAP will be released as an Open-Source Library in Github (TRL7 or higher) by April 2024. 
