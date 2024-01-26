@@ -1,8 +1,8 @@
-# Security Policy for MUSAP_project
+# Security Policy for MUSAP Projects
 
 ## Reporting a Vulnerability
 
-If you believe you have found a security vulnerability in musap-android, please follow these steps:
+If you believe you have found a security vulnerability in MUSAP Projects, please follow these steps:
 
 1. **Do not report security vulnerabilities through public GitHub issues.**
 2. **Email the maintainers** - Send an email to methics.info@methics.fi detailing the vulnerability. Include steps to reproduce, if possible.
