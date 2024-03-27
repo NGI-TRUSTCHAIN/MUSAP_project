@@ -7,7 +7,7 @@
 During OC1 of NGI Trustchain project, 4 key stores will be enabled for the end-user with MUSAP, i.e TEE (Android Key store or iOS Secure Enclave), eUICC/UCICC (Mobile ID), Dongle (Yubikey via NFC) and eIDAS Remote Signing.  As EDIW progressed, ENISA (European Cybersecurity Agency) has been releasing recommendations related to a need for harmonized interface that allows access to cryptographic operations. Image below incorporates MUSAP scope to act as a secure component API to enable SSCD for end-user. 
 ![MUSAP adapted picture from Enisa](Picture2_MUSAP_scope_ENISA_adaption.png)
 
-MUSAP Library (Java/Swift) can be integrated with any Android or iOS app projects. Whereas, MUSAP Link Library (Servlet component) is delivered as a library that can be used with a Java-based web server.
+MUSAP Library (Java/Swift) can be integrated with any Android or iOS app projects. Whereas, MUSAP Link (Servlet component) is delivered as a simple web servlet that can be used with a Java-based web server.
 
 ## a. Project Motivation
 The primary objective of the MUSAP project has been three fold: 
@@ -29,12 +29,12 @@ MUSAP has 10 defined functionalities (as mentioned in D1 and D2). These function
 6. F6 i.e., Functionality 6: Key Attestation
 7. F7 i.e., Functionality 7: Key metadata definition and import/export
 8. F8 i.e., Functionality 8: Sign data and cryptographic formats
-9. F9 i.e., Functionality 9: MUSAP Link library (Servlet component)
+9. F9 i.e., Functionality 9: MUSAP Link (Servlet component)
 10. F10 i.e., Functionality 10: URI Scheme
 
     
 ## d. How MUSAP can be integrated
-MUSAP architecture supports both smartphone based apps (iOS or Android) and web servers (remote web wallets). Smartphone support is defined in Module 1 i.e.  [MUSAP Android Library](https://github.com/methics/musap-android) or [MUSAP iOS Library](https://github.com/methics/musap-ios)  and web server support is defined in module 2 i.e. [MUSAP Link Library (java) ](https://github.com/methics/musap-link) 
+MUSAP architecture supports both smartphone based apps (iOS or Android) and web servers (remote web wallets). Smartphone support is defined in Module 1 i.e.  [MUSAP Android Library](https://github.com/methics/musap-android) or [MUSAP iOS Library](https://github.com/methics/musap-ios)  and web server support is defined in module 2 i.e. [MUSAP Link (java) ](https://github.com/methics/musap-link) 
 
 
 ## e. Gaps Addressed
@@ -86,7 +86,7 @@ Following software code is developed so far:
 1.	[MUSAP API Specification]: Informative repository documenting MUSAP API specifications
 2.	[MUSAP Android Library](https://github.com/methics/musap-android): Repository about MUSAP Android library 
 3.	[MUSAP iOS Library](https://github.com/methics/musap-ios): Repository about MUSAP iOS library
-4.	[MUSAP Link Library (java) ](https://github.com/methics/musap-link): Repository about component of MUSAP deployed on backend (server)
+4.	[MUSAP Link (java) ](https://github.com/methics/musap-link): Repository about component of MUSAP deployed on backend (server)
 5.	[Android Reference app for MUSAP ](https://github.com/methics/musap-demo-android): Reference Demo app for Android using MUSAP Android Library 
 6.	[iOS Reference app for MUSAP ](https://github.com/methics/MUSAP-Demo-App-iOS):  Reference Demo app for iOS using MUSAP iOS Library
 7.	[Divvy app for Client-DIDs project (Danubetech)]:Divvy app for Danubetech demo using MUSAP Android Library
