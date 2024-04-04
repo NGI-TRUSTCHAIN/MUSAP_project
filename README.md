@@ -78,18 +78,18 @@ Methics' focus during the MUSAP project has been to let end-users choose which S
 To demonstrate MUSAP, Methics has a threefold approach:
 1. Methics demonstrates the complete functionality of MUSAP using a demo/test app and SSCDs provided by Methics' products.
 2. Methics shares the complete MUSAP library with the Danubetech team to use in their operations. The Danubetech team uses MUSAP to sign Decentralized Identifiers (DIDs) in the Client-DID project (a two-way collaboration in OC1).
-3. Methics demonstrates MUSAP functionality in production systems in Mongolia, where users can select from available SSCDs to sign documents on a document signing service called VSign.
+3. Methics demonstrates MUSAP functionality in production systems in Mongolia, where users can select from available SSCDs to sign documents on a document signing service called VSign. [MUSAP - VSign Demo video](https://www.youtube.com/watch?v=rbmdo-GwndE): Interfaced two SSCDs for document signing service 
 
 
 # 2. MUSAP Repositories 
 Following software code is developed so far:
-1.	[MUSAP API Specification]: Informative repository documenting MUSAP API specifications
+1.	[MUSAP API Specification](https://github.com/methics/musap-api/): Informative repository documenting MUSAP API specifications
 2.	[MUSAP Android Library](https://github.com/methics/musap-android): Repository about MUSAP Android library 
 3.	[MUSAP iOS Library](https://github.com/methics/musap-ios): Repository about MUSAP iOS library
 4.	[MUSAP Link (java) ](https://github.com/methics/musap-link): Repository about component of MUSAP deployed on backend (server)
 5.	[Android Reference app for MUSAP ](https://github.com/methics/musap-demo-android): Reference Demo app for Android using MUSAP Android Library 
 6.	[iOS Reference app for MUSAP ](https://github.com/methics/MUSAP-Demo-App-iOS):  Reference Demo app for iOS using MUSAP iOS Library
-7.	[Divvy app for Client-DIDs project (Danubetech)]:Divvy app for Danubetech demo using MUSAP Android Library
+7.	[Divvy app for Client-DIDs project (Danubetech)](https://github.com/methics/divvy-android):Divvy app for Danubetech demo using MUSAP Android Library
 8.	[VSign Android App API]: Sign App for vsign.mn Pilot using MUSAP Android Library to call Unitel mPKI SIM and GSign App 
 
 Image below provides high level overview of MUSAP architecture.
@@ -102,6 +102,7 @@ Overall MUSAP project will provide three distinct APIs:
 2. MUSAP Link API (REST): API for Relying Parties to request signature through MUSAP
 3. MUSAP Coupling API (JSON): To link MUSAP Library and MUSAP Link
 
+Details about MUSAP API and MUSAP Specification can be viewed in seperate repository. The MUSAP API is described in detail in Chapter 11 of the [MUSAP Specification](https://github.com/methics/musap-api/blob/main/docs/MUSAP_Specification.pdf).
    
 Image below illustrates MUSAP scope, which highlights all above-mentioned APIs. 
 
@@ -138,7 +139,7 @@ MUSAP fact sheet can be found here:
 
 # 4. Trustchain Partners that support scenarios
 
-Danubetech (Client-DID) 
+Danubetech (Client-DID) to use [Divvy app for built with MUSAP](https://github.com/methics/divvy-android)
 
 
 # 5. Human Centric approach 
