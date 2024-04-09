@@ -93,7 +93,7 @@ Following software code is developed so far:
 8.	[VSign Android App API]: Sign App for vsign.mn Pilot using MUSAP Android Library to call Unitel mPKI SIM and GSign App 
 
 Image below provides high level overview of MUSAP architecture.
-![MUSAP project architecture alt="Description of the image" width="100" height="100](Picture1_MUSAP_D3_Architecture.png)
+![MUSAP project architecture alt="Description of the image" width="100" height="100](Complete_MUSAP_Architecture_D4.png)
 
 
 
