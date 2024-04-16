@@ -121,15 +121,22 @@ MUSAP enables the end-user to have multiple identities of different Levels of As
 TBD
 
 ## c. MUSAP Use Cases
-Overall MUSAP project will provide three distinct APIs: 
+MUSAP project provides (caters) unique use cases, such as: 
 1. Enable Type 1 (High) and Type 2 (Substantial) configurations of EUDIW in one device
 2.	Sign any data format (X.509, VC, DID, etc.)
-3.	Provide multiple keystores/sscds to end-user to sign/auth
+3.	Provide multiple keystores/sscds to end-user to choose how they sign/authn
 4.	Handling Key Management methods and operations
+5.	Supporting [clinet-secret-mode for DIDs](https://identity.foundation/did-registration/#client-managed-secret-mode) to manage cryptographic operations & sign
 
-Image below illustrates MUSAP uaw case for EUDIW 
+Image below illustrates MUSAP use case for EDIW (EUDIW) 
 
 ![MUSAP for EUDIW](Picture4_MUSAP_for_EUDIW.png)
+
+Image below illustrates MUSAP use case for DIDs 
+
+![MUSAP for signing DIDs and use in client-secret mode](https://github.com/methics/divvy-android/blob/main/Divvy_use_case.png)
+
+
 
 MUSAP fact sheet can be found here: 
 [MUSAP fact sheet](https://www.methics.fi/wp-content/uploads/2023/11/MUSAP_Product_Fact_Sheet.pdf)
